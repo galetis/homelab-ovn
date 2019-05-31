@@ -47,6 +47,8 @@ OVN should generally be distribution independent.
 
 First let's install some packages.
 
+`curl https://trunk.rdoproject.org/centos7/delorean-deps.repo | sudo tee /etc/yum.repos.d/delorean-deps.repo`
+
 [source,bash]
 ----
 dnf install openvswitch \
